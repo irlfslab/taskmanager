@@ -116,13 +116,13 @@
     border-radius: 5px;
 }
 
-.message {
+.msg {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.message .clear{
+.msg .clear{
     border: 0px;
     background-color: #11468F;
     color: #ffffff;
