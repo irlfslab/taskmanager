@@ -44,6 +44,8 @@ clear.addEventListener("click", (e) => {
 });
 
 function filterTask(term){
+    //console.log(tasks.children);
+    //console.log(Array.from(tasks.children);
     Array.from(tasks.children)
     .filter(task => {
         return !task.textContent.toLowerCase().includes(term);
