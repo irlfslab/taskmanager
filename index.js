@@ -14,6 +14,7 @@ updateMsg();
 
 addTask.addEventListener("submit", (e) => {
     e.preventDefault();
+    //console.log(addform.task.value);
     const value = addTask.task.value.trim()
 
     if(value.length){
