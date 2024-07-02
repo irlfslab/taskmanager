@@ -18,7 +18,7 @@ addTask.addEventListener("submit", (e) => {
     const value = addTask.task.value.trim()
 
     if(value.length){
-        console.log(value);
+        //console.log(value);
         tasks.innerHTML += `<li>
                                 <span>${value}</span>
                                 <i class="bi bi-trash-fill delete"></i>
